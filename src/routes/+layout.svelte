@@ -1,6 +1,7 @@
 <script>
-	import '../app.css';
-	let { children } = $props();
+	import "../app.css";
 </script>
 
-{@render children()}
+<div class="flex justify-center items-center min-h-screen">
+	<slot />
+</div>
